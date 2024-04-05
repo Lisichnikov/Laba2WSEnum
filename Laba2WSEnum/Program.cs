@@ -39,7 +39,7 @@ internal class Program
         {
             return DayTime.Утро;
         }
-        else if (time >= 13 && time <= 18)
+        else if (time >= 13 && time <= 17)
         {
             return DayTime.День;
         }
