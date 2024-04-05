@@ -21,7 +21,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.Write("Введите день недели: ");
+        Console.Write("Введите день недели (1-7): ");
         int day = Convert.ToInt32(Console.ReadLine());
 
         Console.Write("Введите время (0-23): ");
